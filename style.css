@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #171717;
+    color: #a3a3a3;
+    width: 60%;
+    margin: 2rem auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 0rem;
+}
+nav a{
+    color: #a3a3a3;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color .4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.links{
+    display: flex;
+    column-gap: .8rem;
+
+}
+
+nav a:hover{
+    color: #fff;
+}
+section#intro{
+    display: flex;
+    flex-direction:column;
+    row-gap: .4rem;
+    margin: .4rem;
+    font-size: 22px ;
+    margin-top: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#intro .intro{
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 600;
+
+}
+
+section#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: .7rem;
+ 
+    margin-top: 5rem;
+}
+section#content a{
+    color: #737373;
+    text-decoration: none;
+    padding: 16px 0;
+    border-bottom: solid 1px #a3a3a3 ;
+    display: grid;
+    grid-template-columns: 5fr auto;
+    place-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color .4s;
+}
+section#content a:last-child{
+    border-bottom: none;
+}
+section#content a:hover{
+    color: #fff;
+}
+a span.content{
+    color: #fff;
+    font-size: 24px;
+}
+a span.date{
+    font-size: 18px;
+}
+
+/* tags */
+section#tags{
+    margin-top: 30px ;
+    padding: 10px 10px;
+}
+section#tags h2{
+    font-size: 14px;
+    color: #737373;
+    display: block;
+    margin-bottom: 20px;
+}
+section#tags div{
+    display: flex;
+    gap: .4rem;
+    flex-wrap: wrap;
+}
+section#tags div a{
+    background-color: #262626;
+    color: #a3a3a3;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .2s;
+
+}
+section#tags div a span{
+    color: #737373;
+}
+footer{
+    text-align: center;
+    font-size: 22px;
+    padding: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+section#tags div a:hover{
+    background-color: #a3a3a3;
+    color:#171717;
+}
+section#tags div a:hover span{
+   color: #262626;
+}
+
